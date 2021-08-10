@@ -204,3 +204,83 @@ About
 .about .about-buttons li:last-child {
   margin-right: 0;
 }
+
+/*
+PORTFOLIO
+*/
+.portfolio .article {
+  width: 224px;
+  height: 220px;
+  border: 4px solid #D1FFA2;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+}
+
+.portfolio .article img {
+  display: block;
+  border-radius: 15px;
+}
+
+.portfolio .article h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.portfolio .article p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.portfolio .article div {
+  position: absolute;
+  background: rgba(109, 10, 211, 0.8);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  /* width: 100%; */
+  padding: 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+.portfolio .article ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.portfolio .article li {
+  color: #580AAF;
+  background: #D1FFA2;
+  font-size: 11px;
+  /* display: inline-block; */
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.portfolio .article li:hover {
+  background: orange;
+  color: white;
+}
+
+.portfolio .article:hover {
+  border-color: #580AAF;
+  cursor: pointer;
+}
+
+.portfolio .article:hover div {
+  display: block;
+}
+
+.portfolio  .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
