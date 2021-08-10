@@ -1,0 +1,206 @@
+/*
+GLOBALES
+*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: 'Raleway';
+  color: #262626;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: 'Poppins';
+  line-height: 100%;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+/*
+HEADER
+*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 0;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.header li {
+  margin-left: 20px;
+  position: relative;
+}
+
+.header li:first-child {
+  margin-left: 0;
+}
+
+header a {
+  transition: all .5s ease;
+  font-weight: bold;
+}
+
+.header li a:hover {
+  color: #437567;
+}
+
+.header li a:hover::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 4px;
+  height: 4px;
+  margin-left: -2px;
+  background-color: #437567;
+  border-radius: 100%;
+}
+
+.header li.is-active a {
+  color: #832FDA;
+  cursor: default;
+}
+
+.header li.is-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 4px;
+  background-color: #832FDA;
+  border-radius: 20px ;
+}
+
+.header .logo {
+  position: relative;
+  width: 42px;
+  height: 42px;
+}
+
+.header .logo div {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.header .logo .layer-four {
+  background-color: #d1ffa2;
+  left: -5px;
+}
+
+.header .logo .layer-three {
+  background-color: #0098ef;
+  left: -10px;
+}
+
+.header .logo .layer-two {
+  background-color: #00cf95;
+  left: -15px;
+}
+
+.header .logo .layer-one {
+  background-color: #6D0AD3;
+  left: -20px;
+}
+
+.header .logo img {
+  position: absolute;
+  left: 5px;
+    top: 5px;
+}
+
+/*
+About
+*/
+.about {
+  display: flex;
+  position: relative;
+}
+
+.about .about-left {
+  padding-right: 40px;
+}
+
+.about .about-right {
+  padding-left: 40px;
+}
+
+.about .about-left,
+.about .about-right {
+  width: 50%;
+}
+
+.about h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.about h1 {
+  font-size: 4rem;
+  color: #00CF95;
+  margin-bottom: 15px;
+}
+
+.about p {
+  border-left: 4px solid #00CF95;
+  line-height: 1.8;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+.about .about-social-media {
+  position: absolute;
+  right: 0;
+}
+
+.about .about-buttons,
+.about .about-buttons ul {
+  display: flex;
+  align-items: center;
+}
+
+.about .about-buttons .download{
+  background: #6D0AD3;
+  color: #fff;
+  padding: 15px 40px;
+  margin-right: 20px;
+}
+
+.about .about-buttons li {
+  margin-right: 14px;
+}
+
+.about .about-buttons li:last-child {
+  margin-right: 0;
+}
