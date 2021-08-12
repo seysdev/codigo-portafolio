@@ -1,0 +1,38 @@
+/*
+GLOBALES
+*/
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 1.3rem;
+    font-family: "Raleway";
+    color: #262626;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: bold;
+    font-family: "Poppins";
+    line-height: 100%;
+  }
+
+  .wrapper {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  main > section {
+    margin-bottom: 100px;
+  }
