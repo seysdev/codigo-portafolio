@@ -18,6 +18,8 @@ GLOBALES
   a {
     text-decoration: none;
     color: inherit;
+
+    
   }
 
   h1,
@@ -35,4 +37,18 @@ GLOBALES
 
   main > section {
     margin-bottom: 100px;
+  }
+
+  @media (max-width:980px) {
+      a {
+
+      }
+
+      p {
+
+      }
+
+      body {
+        
+      }
   }

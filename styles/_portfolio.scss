@@ -8,7 +8,7 @@ PORTFOLIO
     color: white;
     position: relative;
     border-radius: 20px;
-    @extend %box-flex;
+   
   }
   
   .portfolio .article img {
@@ -79,3 +79,41 @@ PORTFOLIO
     grid-gap: 20px;
   }
   
+
+  .flex {
+    display: flex;
+  }
+
+
+  %box-default {
+    padding: 20px;
+    background: red;
+    display:flex;
+    justify-content:space-between;
+  }
+
+
+  .header,
+  footer,
+  main {
+    @extend %box-default;
+  }
+
+  .header {
+    @extend %box-default;
+  }
+
+  footer {
+    @extend %box-default;
+  }
+
+  main {
+    @extend %box-default;
+  }
+
+  // footer {
+  //   padding: 20px;
+  //   background: red;
+  //   display:flex;
+  //   justify-content:space-between;
+  // }

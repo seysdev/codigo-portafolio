@@ -1,9 +1,11 @@
+@import './_variables';
 /*
 About
 */
 .about {
     display: flex;
     position: relative;
+    // @extend %box-flex;
   }
   
   .about .about-left {

@@ -1,0 +1,79 @@
+/*******************
+VARIABLES
+********************/
+/*VARIABLES HEADER*/
+/*
+About
+*/
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.about .about-left {
+  padding-right: 40px;
+}
+
+.about .about-right {
+  padding-left: 40px;
+}
+
+.about .about-left,
+.about .about-right {
+  width: 50%;
+}
+
+.about h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.about h1 {
+  font-size: 4rem;
+  color: #00cf95;
+  margin-bottom: 15px;
+}
+
+.about p {
+  border-left: 4px solid #00cf95;
+  line-height: 1.8;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+.about .about-social-media {
+  position: absolute;
+  right: 0;
+}
+
+.about .about-buttons,
+.about .about-buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about-buttons .download {
+  background: #6d0ad3;
+  color: #fff;
+  padding: 15px 40px;
+  margin-right: 20px;
+}
+
+.about .about-buttons li {
+  margin-right: 14px;
+}
+
+.about .about-buttons li:last-child {
+  margin-right: 0;
+}
